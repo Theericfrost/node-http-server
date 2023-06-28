@@ -1,0 +1,21 @@
+{
+  "name": "crud_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start:prod": "node index.js",
+    "start:multi": "node multi.js",
+    "test": "jest ./handlers/index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3",
+    "uuid": "^9.0.0"
+  }
+}
